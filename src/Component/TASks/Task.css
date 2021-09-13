@@ -1,0 +1,36 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* ------------------------------- */
+.filter_btns {
+  margin: 2%;
+  margin: 2%;
+}
+#root > div > div.filter_btns > div:nth-child(1) button {
+  padding: 0.5% 1%;
+  margin: 1%;
+  border-radius: 11%;
+  background-color: #9fd0d0;
+  border-color: #9fd0d0;
+}
+/* ---------------------------- */
+.task {
+  border: solid;
+  border-color: teal;
+  box-shadow: 10px 5px 5px teal;
+  padding: 0.5% 5%;
+  margin: 2% 5%;
+  display: flex;
+}
+.btns {
+  display: flex;
+  justify-content: left;
+  padding: 1% 78%;
+  justify-content: space-between;
+}
+.btns button {
+  padding: 1%;
+  margin: 5%;
+}
